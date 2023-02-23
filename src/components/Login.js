@@ -27,7 +27,7 @@ const Login = () => {
 
   useEffect(() => {
     if (localStorage.getItem("token")) {
-      naviagte("/dashboard");
+      naviagte("/alluser");
     }
   }, [loginGlobelState.results]);
   return (

@@ -10,9 +10,11 @@ export function handleApi(data) {
         localStorage.setItem("token", response.data.token);
       } else {
         dispatch({ type: "LOGIN_FAIL" });
+        alert("User Enter Invalid Informations");
       }
     } catch (err) {
       dispatch({ type: "LOGIN_FAIL" });
+      alert("User Enter Invalid Informations");
     }
     return response;
   };

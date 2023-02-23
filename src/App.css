@@ -39,24 +39,87 @@ label.form-label {
 }
 .heading-box.text-center p {
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   text-transform: capitalize;
   font-weight: 400;
 }
-
-button.btnlogin.btn.btn-primary {
-  background-color: #213951;
-  border: 2px solid #213951;
-  font-size: 20px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+.me-auto.my-2.my-lg-0.navbar-nav.navbar-nav-scroll {
+  display: flex;
+  align-items: center;
 }
 
+a.nav-link {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0px 20px;
+}
+button#sign-in-active{
+  background-color: #9ecc3f;
+  border: 2px solid #9ecc3f;
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: serif;
+  margin: 0px 5px;
+}
 
+button#editprofile {
+  background-color: #d81a63;
+  border: 2px solid #d81a63;
+  font-family: serif;
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 0px 5px;
+}
+
+button#logoutbtnss
+{
+  background-color: #ee2a24;
+  border: 2px solid #ee2a24;
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: serif;
+  margin: 0px 5px;
+}
+
+button#changepassword {
+  background-color: #f7921e;
+  border: 2px solid #f7921e;
+  font-size: 18px;
+  text-transform: capitalize;
+
+  font-weight: 600;
+  font-family: serif;
+  margin: 0px 5px;
+}
+button#privacy {
+  background-color: #224d9c;
+  border: 2px solid #224d9c;
+  font-size: 22px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: serif;
+}
+button#viewsss {
+  background-color: #224d9c;
+  border: 2px solid #224d9c;
+  font-size: 22px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: serif;
+}
 
 .backrang{
-  background-color: #213951d9;
+  background-color:#16365d;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
 a.navbar-brand {
   color: #fff;
@@ -64,55 +127,79 @@ a.navbar-brand {
   font-size: 25px;
   letter-spacing: 1px;
 }
-
-#logoutbtnss{
-  background-color: #213951;
-  border: 2px solid #3b4650;
-  color: #fff;
-  font-weight: 600;
-  font-size: 20px;
-  box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
-  text-transform: uppercase;
+img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50px;
 }
 
+#banner-sec{
+  background-image: url("./images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 50px 0px;
+  margin:0px 12px;
+}
+
+.row.main-two-box {
+
+  width: 95%;
+  margin: 0 auto;
+  padding: 40px 0px;
+}
+.view-inner-box{
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+
+  padding: 40px 50px;
+}
+.inner-box {
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+  background-color: transparent;
+  padding: 40px 50px;
+}
+.inner-box ol li  {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #fff;
+  margin: 5px 0px;
+}
+
+.inner-box  h3{
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.inner-box p{
+  font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #fff;
+
+}
 .space-box{
   padding: 12px 70px !important;
 
 }
-.notifications-box {
-  background-color: #000;
- 
-  padding: 12px;
-}
-.notifications-box h3{
-   color: #fff; 
-   font-size: 30px; 
-   font-weight: 600;
-  
+
+.linksss {
+margin-top: 50px;
 }
 
-.notification-body {
-  background-color: #cfcdcd21;
-  padding: 12px;
+.linksss ol li {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  margin: 5px 0px;
+  font-weight: 500; }
+
+  .view-box.text-center {
+    margin: 20px 0px;
 }
 
-.notification-body h6{
-  font-size: 25px;
-  font-weight: 600;
-  margin-bottom: 0px;
-}
-
-.notification-body p{
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.review-box{
-  background-color: #213951;
-  padding: 12px;
-}
-.review-box h3{
-  color: #fff; 
-   font-size: 30px; 
-   font-weight: 600;
-}

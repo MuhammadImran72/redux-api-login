@@ -1,11 +1,11 @@
 {
   "users": [
     {
-      "name": "",
+      "name": "alikhan",
       "email": "alikhan@gmial.com",
-      "phone": "",
+      "phone": "09256789032",
       "password": "12345",
-      "gender": "",
+      "gender": "male",
       "id": 1
     },
     {
@@ -15,6 +15,62 @@
       "password": "12345",
       "gender": "female",
       "id": 2
+    },
+    {
+      "name": "doey",
+      "email": "alikhan@gmial.com",
+      "phone": "0345212",
+      "password": "12345",
+      "gender": "female",
+      "id": 3
+    },
+    {
+      "name": "mubeen",
+      "email": "alikhan@gmial.com",
+      "phone": "1234",
+      "password": "12345",
+      "gender": "male",
+      "id": 4
+    },
+    {
+      "name": "hafeez",
+      "email": "hafeez123@gmail.com",
+      "phone": "12345",
+      "password": "12345",
+      "gender": "male",
+      "id": 5
+    },
+    {
+      "name": "mann",
+      "email": "mann@hotmail.com",
+      "phone": "023456789",
+      "password": "cityslicka",
+      "gender": "male",
+      "id": 6
+    },
+    {
+      "name": "nabell",
+      "email": "nabeel@hotmail.com",
+      "phone": "0345567890",
+      "password": "12345",
+      "gender": "male",
+      "id": 7
+    },
+    {
+      "name": "adeel",
+      "email": "adeel@123gmail.com",
+      "phone": "0345567890",
+      "password": "54321",
+      "gender": "male",
+      "id": 8
+    },
+    {
+      "name": "mani",
+      "email": "maan5@gmail.com",
+      "phone": "09808765",
+      "password": "cityslicka",
+      "gender": "male",
+      "id": 9
     }
   ]
 }
