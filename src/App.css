@@ -150,6 +150,7 @@ img {
 }
 .view-inner-box{
   border-radius: 5px;
+  background-color: #39557aa6;
   box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
 
   padding: 40px 50px;
@@ -157,8 +158,9 @@ img {
 .inner-box {
   border-radius: 5px;
   box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
-  background-color: transparent;
+  background-color: #153459b8;
   padding: 40px 50px;
+
 }
 .inner-box ol li  {
   font-size: 20px;
@@ -197,7 +199,8 @@ margin-top: 50px;
   font-family: sans-serif;
   text-transform: capitalize;
   margin: 5px 0px;
-  font-weight: 500; }
+  font-weight: 500; 
+color: #fff;}
 
   .view-box.text-center {
     margin: 20px 0px;

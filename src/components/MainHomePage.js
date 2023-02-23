@@ -143,57 +143,54 @@ const MainHomePage = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <div className="container-fluid">
-        <div className="row main-two-box">
-          <div className="col-lg-6 text-center">
-            <Button
-              id="viewsss"
-              onClick={() => {
-                OpenView();
-              }}
-            >
-              {" "}
-              View & Sign Declaration Certificate
-            </Button>
-          </div>
 
-          <div className="col-lg-6 text-center">
-            <a href={pdf} target="_blank">
-              <Button id="privacy">
+          <div className="row main-two-box">
+            <div className="col-lg-6 text-center">
+              <Button
+                id="viewsss"
+                onClick={() => {
+                  OpenView();
+                }}
+              >
                 {" "}
-                View Privacy Policy, Terms of Use, User Agreement
-              </Button>{" "}
-            </a>
+                View & Sign Declaration Certificate
+              </Button>
+            </div>
+
+            <div className="col-lg-6 text-center">
+              <a href={pdf} target="_blank">
+                <Button id="privacy">
+                  {" "}
+                  View Privacy Policy, Terms of Use, User Agreement
+                </Button>{" "}
+              </a>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div className="container-fluid">
-        <div className="row main-two-box">
-          <div className="col-lg-6 m-auto ">
-            <div className="view-inner-box">
-              <div className="text-center">
-                <Button id="viewsss"> View Signed Documents</Button>
-              </div>
+          <div className="row main-two-box">
+            <div className="col-lg-6 m-auto ">
+              <div className="view-inner-box">
+                <div className="text-center">
+                  <Button id="viewsss"> View Signed Documents</Button>
+                </div>
 
-              <div className="linksss">
-                <ol>
-                  <li>Link to the Signed PDF File</li>
-                  <li>Link to Billboard on Hedera</li>
-                  <li>link to view Hash value for the signed document</li>
-                </ol>
+                <div className="linksss">
+                  <ol>
+                    <li>Link to the Signed PDF File</li>
+                    <li>Link to Billboard on Hedera</li>
+                    <li>link to view Hash value for the signed document</li>
+                  </ol>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <div className="container-fluid">
         <div className="row main-two-box">
           <div className="col-lg-12">
-            <div className="inner-box">
+            <div className="inner-box-user">
               <h2 className="text-center">Show Every Thing About User</h2>
               {users.map((user) => (
                 <ul key={user.id}>
